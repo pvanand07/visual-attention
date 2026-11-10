@@ -1,0 +1,6 @@
+[project]
+name = "foveacast-local"
+version = "0.1.0"
+description = "Local UI attention (saliency) checks with FoveaCast v0.2.0 INT8 models"
+requires-python = ">=3.10"
+dependencies = ["onnxruntime>=1.18", "numpy", "pillow"]

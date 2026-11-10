@@ -1,0 +1,46 @@
+{
+  "checkpoint": "releases/foveacast-v3-3s-int8.onnx",
+  "split": "test",
+  "time_window": "3s",
+  "metrics": {
+    "cc": {
+      "mean": 0.7062433814560926,
+      "stdev": 0.10472851079272516,
+      "n_batches": 27,
+      "n_images": 108
+    },
+    "kld": {
+      "mean": 0.6744932510234691,
+      "stdev": 0.2107470386289836,
+      "n_batches": 27,
+      "n_images": 108
+    },
+    "nss": {
+      "mean": 2.2858830469625966,
+      "stdev": 0.604783293553043,
+      "n_batches": 27,
+      "n_images": 108
+    }
+  },
+  "compare_checkpoint": "runs/full-20260416-225926/best.pt",
+  "compare_metrics": {
+    "cc": {
+      "mean": 0.7068289871569033,
+      "stdev": 0.10496672319800154,
+      "n_batches": 27,
+      "n_images": 108
+    },
+    "kld": {
+      "mean": 0.6574264797899458,
+      "stdev": 0.20969926897819377,
+      "n_batches": 27,
+      "n_images": 108
+    },
+    "nss": {
+      "mean": 2.287896156311035,
+      "stdev": 0.6047328872625966,
+      "n_batches": 27,
+      "n_images": 108
+    }
+  }
+}
